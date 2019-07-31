@@ -1,1 +1,73 @@
-Journal entry
+Today we have been working on how the Git Hub. This is quite a new stuff, that
+we have encountered. With the help of GitHub we started to learn debugging and
+how to use scripting to put files in the github.
+ 
+We will also be learning to create github repository and then we will
+be uploading our flies in the githiub.
+ 
+So, initially in my first class we have started to learn about git hub commands
+from "www.learngitbranching.js.org".
+ 
+The first thing we learned was:
+1. Git Commits
+- It is git repository that records a snapshot of all the files in our directory.
+- It is like a giant copy and paste
+- It helps to save changes to the local depository
+- It is to commit the files that is staged in the local repo
+ 
+2. Git Branches
+- The memory repository is called the master. Whatever we commit will come to the master.
+- Branches and git are snapshots of master branch.
+- Master is the main application where the process is happening.
+ 
+Q. How we are goign to merge with the project?
+A. To merge the project we are going to use the command line, which is 'git checkout -b [your branch name]'
+ 
+3. Branches and Merges
+- If we want to create a branch we simply type in 'git checkout [Your Branch Name]'
+The steps to merge with the branch is:
+    a. git checkout -b "Milton"
+    b. git commit
+    c. git push "Milton"
+    d. git merge
+ 
+    The first method to combine work that we will examine is 'git merge'. Merging in Git creates a special commit that has two unique parents. A commit with
+    two parents essentially means "I want to include all the work from this parent over here and this one over here. and the set of all their
+    parents".
+ 
+4. Git Rebase
+- It is other way of combining work between branches is rebasing.
+- It eventually taken a set of commits, copies, them, and plops them down somewhere else.
+- If we want to move our work from bugfix directly onto the work from master, then we can use git rebase command.
+- When we apply git rebase bugfix, then  master becomes on ancestor of bug fix, git simply move the master branch refernce forward in history.
+ 
+ 
+Lecture 2.
+ 
+How to install github on my device and see how it is done.
+        -Project on your machine on how to do it.
+ 
+    WorkSpace - Git clone
+    - How to know repository we use
+    - That means it is clone on your computer.
+Github is used to see what work is done and people can collborate with that.
+ 
+Pull Request
+    -It is send message on your work if someone wrote some comment on your work.
+Everytime I made a changes vs code will show a change to see what we have clone. It will show what changes we had done or what changes needed to be done.
+ 
+Git add --> to add
+Git commit -m "Test"
+git push origin master
+ 
+git clone https://github.com/loganwolf619/WEB601.Week1.Lecture_1-Lecture_2.git
+git add.
+git commit -m "Week_1.Lecture_1+Lecture_2"
+ 
+The new file can be named as name.txt . It must be followed by .txt
+If we write something then save:
+    a. git status
+    b. git add.
+    c. git commit -m "Name of the File"
+    d. git push origin master
+ 
