@@ -1,1 +1,2 @@
-Session 2 lecture
+Session 2 lecture  4 of week 2.
+Today we will be working on the way the system is goign to work
