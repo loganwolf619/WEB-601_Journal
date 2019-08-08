@@ -1,0 +1,19 @@
+Truthy & Falsy Values in JavaScript
+
+Before we begin looking at logical expressions,
+which rely on the truthiness of statements to 
+derive validity of the expression, we should 
+have a solid understanding of what is truthy in 
+JavaScript. Since JavaScript is loosely typed, 
+values can be coerced into booleans to evaluate 
+logical expressions. if conditions, &&, ||, and 
+the part of a ternary statement preceding the 
+question mark (_?_:_) all coerce their evaluated 
+values into booleans. (Note that this doesn’t mean 
+that they necessarily return a boolean from the operation.) 
+The shortcut to knowing what is truthy is to know that 
+there are only six falsy values — false, null, undefined,
+ NaN, 0, and '' — and everything else is truthy. 
+This means that [] and {} are both truthy.
+
+
