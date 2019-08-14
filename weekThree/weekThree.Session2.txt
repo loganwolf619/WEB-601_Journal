@@ -17,3 +17,34 @@ there are only six falsy values — false, null, undefined,
 This means that [] and {} are both truthy.
 
 
+We have a golbal place where we decalre all the varible and there is a place where we will write the equations
+and there will be a place where we will do the constant.
+
+/*G/Memory
+num: 5
+multiply: f
+name: Milton
+multi:
+*/
+
+
+const num = 5
+function multilpy (input )
+{
+  const result = input * 2
+  return result
+}
+const name = "Ali"
+const multi = Multiply(1)
+multilpy()
+
+There are ways to declare a function. 
+
+Checkout if you can come up with some functional declaration.
+Variable Environmnent - 
+When we com up from a ficntion, the javascript provides us a direction to let us know wehere
+we are. This is called callstack. 
+- It tells us where we are and what we can do from that point. Thats the job of callstack to tell where 
+to go from that point. We took the golbal.
+Global will come first.
+AAny function that is going in that dictionary. Every place hasit local. 
