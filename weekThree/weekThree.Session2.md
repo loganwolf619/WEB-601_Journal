@@ -9,11 +9,11 @@ values can be coerced into booleans to evaluate
 logical expressions. if conditions, &&, ||, and 
 the part of a ternary statement preceding the 
 question mark (_?_:_) all coerce their evaluated 
-values into booleans. (Note that this doesn’t mean 
+values into booleans. (Note that this doesnï¿½t mean 
 that they necessarily return a boolean from the operation.) 
 The shortcut to knowing what is truthy is to know that 
-there are only six falsy values — false, null, undefined,
- NaN, 0, and '' — and everything else is truthy. 
+there are only six falsy values ï¿½ false, null, undefined,
+ NaN, 0, and '' ï¿½ and everything else is truthy. 
 This means that [] and {} are both truthy.
 
 
@@ -48,3 +48,56 @@ we are. This is called callstack.
 to go from that point. We took the golbal.
 Global will come first.
 AAny function that is going in that dictionary. Every place hasit local. 
+
+```javascript
+// console.log is the writer 
+// console.log('Hello world!')
+
+// Using the older variable syntax 
+// var name = 'Milton'
+
+// console.log(name)
+
+// bla = 2
+// var bla
+
+// Let allows the variable to be changed and it will only take the latest variable
+// with the variable name
+let name = "Nelson"
+name = "NZ"
+name = "Milton"
+console.log(name)
+
+// 
+const lastname = "Milton"
+const firstname = "Ashkar"
+console.log(lastname)
+console.log(firstname)
+
+// or to concatenate
+console.log(firstname, lastname)
+
+// Basic arithmetic
+const numOne = 100.99
+const numTwo = 56.97
+
+const resultSubtract = numTwo - numOne
+console.log(resultSubtract)
+
+const resultAdd = numTwo + numOne
+console.log(resultAdd)
+
+const resultDivide = numTwo / numOne
+console.log(resultDivide)
+
+const resultMultiply = numTwo * numOne
+console.log(resultMultiply)
+
+
+// % is modular and gets the number of decimal places
+const numThree = 12
+const numFour = 5
+
+const result = numThree % numFour
+console.log(result)
+```
