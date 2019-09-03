@@ -68,6 +68,7 @@ class Greeting extends React.Component {
 
 
 **Composing Components**
+
 - We need to remember that, React allows us to reference components within other components, allowing us to to add a level of abstraction to our application. 
 - We can write the component structure like this:
 ```
@@ -75,4 +76,58 @@ UserProfile
     |-> Avatar
     |-> UserName
     |-> Bio
+```
+**What is a Component?**
+
+- A component is an independent, reusable code block, which divides the UI into smaller pieces.
+- We can consider the components as LEGO pieces and here we use LEGO pieces to make LEGO strcuture. Similarly, Components are like LEGO pieces (or LEGO blocks), thus we create a webpage or UI using many different code blocks(components).
+
+**Funictional Components**
+
+- A functional component is basically considered to be a JavaScript function which returns a React element. As such, the function below represents a Valid React Component:
+
+```
+function Welcome(props) {
+  return <h1>Hello, {props.name}</h1>;
+}
+```
+
+- We can also define a React functional component as a **JS Function**:
+
+```
+function Example() {
+return (
+<h1>I'm a funcational component!</h1>
+)
+}
+```
+
+- We can also define a React functional component as a **ES6 arrow function**
+
+```
+const Example = () => {
+return (
+<h1>I'm a funcational component!</h1>
+)
+}
+```
+
+
+**Class Components**
+
+- Class components are ES6 classes.
+- They are more complex than functional components including constructors, life-cycle methods, render( ) function and state (data) management.
+- In the example below, we can see how a simple class component looks like:
+```
+import React, {Component} from 'React'
+
+class Example extends Component {
+render() {
+return (
+<div>This is an example component</div>
+)
+}
+}
+
+export default Example
 ```
