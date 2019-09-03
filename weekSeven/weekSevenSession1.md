@@ -145,7 +145,8 @@ Creating the parent & child components
 
 ## Website to go through:-->
 1. https://www.styled-components.com/  ---> Show us the styled-componnets and the styles we can use for our website.
-2. https://www.freecodecamp.org/ ---> This is the website where we can learn more about using JS, HTML, and CSS. This is more or less tutorial based work. 
+2. https://www.freecodecamp.org/ ---> This is the website where we can learn more about using JS, HTML, and CSS. This is more or less tutorial based work.
+3. https://www.cleveroad.com/services/web-development ---> 
 
 
 
