@@ -141,6 +141,7 @@ In order to create and call React components, we are going to maintain these cer
 4. Finally, I will call the *Parent Component* on the **Root File (app.js)**.
 
 ![Image of Creating the parent & child components](image1.png)
+Creating the parent & child components
 
 ## Website to go through:-->
 1. https://www.styled-components.com/  ---> Show us the styled-componnets and the styles we can use for our website.
