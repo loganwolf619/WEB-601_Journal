@@ -143,10 +143,22 @@ In order to create and call React components, we are going to maintain these cer
 ![Image of Creating the parent & child components](image1.png)
 Creating the parent & child components
 
+- Now, inside the **parentComponent** file we, first we need to import **React** and **Component**, then we will define a **class** as below. 
+
+
+
+
+
 ## Website to go through:-->
 1. https://www.styled-components.com/  ---> Show us the styled-componnets and the styles we can use for our website.
 2. https://www.freecodecamp.org/ ---> This is the website where we can learn more about using JS, HTML, and CSS. This is more or less tutorial based work.
 3. https://www.cleveroad.com/services/web-development ---> 
+4. https://webinerds.com/6-web-development-stacks-try-2017/ 
 
 
 
+###Presentation on MEAN
+- M:> MongoDB
+- E:> ExpressJS
+- A:> AngularJS
+- N:> NodeJS
