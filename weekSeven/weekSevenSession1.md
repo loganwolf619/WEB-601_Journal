@@ -1,4 +1,4 @@
-## React Components ..
+## React Components --> 
 
 **What are Components?**
 They are the main builidng block of an React eleement. A component is a javascript class or funciton that optionaly accepts inputs which could be prps and then returns a React element which describes how the section of the UI should appear.
@@ -42,6 +42,37 @@ const Greeting = props => <h1>Hello {props.name}</h1>;
    ReactDOM.render(
      <Greeting name={‘Edmond’}/>,
      document.getElementById('root')
+   );  
+```
+**Using Props with Class Components**
+We can add props to class components which is quite a similar process to the one we used in the functional component. We can observe two chnages that is associated with it. These include:
+
+1. Props is not passed as an argument to the class
+2. The **name** attribute is accessed using the **this.props.name** instead of **props.name**. To explain better we can use this code, as an example:
+
+*The Greeting Component*
+```
+class Greeting extends React.Component {
+     render(){
+     return <h1>Hello {this.props.name}</h1>;
+     }
+   }ReactDOM.render(
+     <Greeting name={‘Edmond’}/>,
+     document.getElementById('root')
    );
-   
+```
+
+**Default Props**
+- Default props are often used by a component as default attributes in case no props are explicitly passed to the component.
+- Default props are helpful in enabling us an offer to a better user experience through our app, as such *The Greeting* that we used above. Using thet default props we can ensure that the greeting is always rendered even if the name attribute has not been explicitly passed to the component. 
+
+
+**Composing Components**
+- We need to remember that, React allows us to reference components within other components, allowing us to to add a level of abstraction to our application. 
+- We can write the component structure like this:
+```
+UserProfile
+    |-> Avatar
+    |-> UserName
+    |-> Bio
 ```
