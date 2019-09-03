@@ -131,3 +131,20 @@ return (
 
 export default Example
 ```
+
+
+**Creating Our First Component**
+In order to create and call React components, we are going to maintain these certain stages. These include:
+1. I will create 1 class componnet, which is going to be considered as the **Parent Component**
+2. I will add 1 **Functional Component** as **Child Component**
+3. Then I will call the Child Parent inside the Parent Component.
+4. Finally, I will call the *Parent Component* on the **Root File (app.js)**.
+
+![Image of Creating the parent & child components](image1.png)
+
+## Website to go through:-->
+1. https://www.styled-components.com/  ---> Show us the styled-componnets and the styles we can use for our website.
+2. https://www.freecodecamp.org/ ---> This is the website where we can learn more about using JS, HTML, and CSS. This is more or less tutorial based work. 
+
+
+
