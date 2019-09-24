@@ -18,3 +18,12 @@ To generate a skeleton Express.js app, we need to run a terminal command—expre
 ![Image of Lecture-8.Note-5](5_image.jpg)
 
 ## Express.js Command-Line Interface
+There are ways to create an app with Stylus support in Express.js.
+
+*express -c styl express-styl*
+
+Then we can use:
+
+*$ cd express-styl && npm install*
+and
+*$ DEBUG=my-application ./bin/www*
