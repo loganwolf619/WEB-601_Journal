@@ -1,0 +1,2 @@
+Today I didn't show up in class, because I have working on the assignment all night. 
+We are supposed to have  a meeting today to work on the asssignment, but I haven't finsihed it yet, so not sure what to add on that.
